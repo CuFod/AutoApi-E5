@@ -53,5 +53,4 @@ jobs:
         git commit -m "update new refresh_token" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
-      env:
       INPUT_GITHUB_TOKEN: ${{ secrets.INPUT_GITHUB_TOKEN }}
